@@ -1,0 +1,11 @@
+1;Everton;D;Fulham;100.39;1.11;300.45
+2;Burnley;D;Aston Villa;2.34;5.32;2.52
+3;Arsenal;D;Tottenham;1.33;1.75;2.47
+4;Juventus;D;Fiorentina;1.29;1.93;2.53
+5;Atalanta;D;Napoli;1.45;1.92;1.56
+6;Dortmund;D;Freiburg;1.21;2.15;2.79
+7;Bielefeld;D;Köln;1.64;2.21;1.79
+8;Augsburg;D;Wolfsburg;1.75;2.80;2.15
+9;Ferencváros;D;Paks;1.17;3.10;5.15
+10;MTK;D;Budafok;1.89;3.20;2.55
+11;Nyíregyháza;D;DVSC;1.62;1.96;2.10
