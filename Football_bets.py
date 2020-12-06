@@ -382,7 +382,8 @@ class Ui_MainWindow(object):
             self.cp=prof_id
         self.kreditossz = kredit
         self.kreditek_frissites()
-
+        self.bethistory.clear()
+        self.meccscounter=1
     def kreditek_frissites(self):
         self.kreditszam.setText("Kreditek: " + str(round(self.kreditossz)))
         f = open("profilok.txt", "r", encoding="utf8")
@@ -908,19 +909,3 @@ ui.setupUi(MainWindow)
 ui.kreditek_frissites()  ### Felhasználható krediteket rendel a profilhoz
 MainWindow.show()
 sys.exit(app.exec_())
-
-# eredmenyls = []
-# meccshalmaz = {}
-# kreditossz = 1000
-# fogadott_csapatok = []
-# nyert_csapatok = []
-# megtett_tet = 0
-# szorzo_osszeg = 1.0
-# szorzo_osszeg = float(szorzo_osszeg)
-# nyert_osszeg = 0
-# self.matchupload.clicked.connect(self.load_matches)
-# self.regist.clicked.connect(self.open_window)
-# self.home.clicked.connect(self.gyoztesre_fogadas)
-# self.tie.clicked.connect(self.dontetlenre_fogadas)
-# self.away.clicked.connect(self.vesztesre_fogadas)
-# self.results.clicked.connect(self.eredmenyek)
